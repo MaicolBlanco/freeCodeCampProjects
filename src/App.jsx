@@ -1,11 +1,11 @@
 import React from 'react';
-import TestComponents from './testComponents/TestComponents';
+import { TestimonioPrincipal } from './Testimonios';
 
 function App() {
 
   return (
     <>
-      <TestComponents/>
+      <TestimonioPrincipal/>
     </>
   )
 }
