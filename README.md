@@ -24,3 +24,6 @@ Is about of the basic use React
 
 ## The Second Component:
 This component uses React.useState to take control of the state. It is still a basic component but it begins with the use of states.
+
+## The Third Component:
+This component is a calculator, here again uses the states, with the onClick events

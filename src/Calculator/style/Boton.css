@@ -1,0 +1,28 @@
+.btn-container{
+  height: 83px;
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: darkblue;
+  color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none; /* Apariencia de Boton el div */
+}
+
+.btn-container:hover{
+  background-color: tomato;
+}
+
+.operador{
+  background-color: darkgreen;
+}
+
+.operador:hover{
+  background-color: orange;
+}
