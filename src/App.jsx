@@ -1,11 +1,13 @@
 import React from 'react';
-import { TestimonioPrincipal } from './Testimonios';
+import { Testimonio } from './Testimonios';
+import Counter from './Counter';
 
 function App() {
 
   return (
     <>
-      <TestimonioPrincipal/>
+      <Testimonio/>
+      <Counter/>
     </>
   )
 }

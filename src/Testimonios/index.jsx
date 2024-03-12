@@ -1,12 +1,12 @@
 import React from "react";
-import { Testimonios } from "./Testimonios";
+import { Contenido } from "./Contenido";
 
-const TestimonioPrincipal = () => {
+const Testimonio = () => {
   return (
     <React.Fragment>
       <div style={{ textAlign: "center" }}>
         <h1>Estos es lo que dicen nuestros estudiantes de React</h1>
-        <Testimonios
+        <Contenido
           name="Shaw Wang"
           country="Singapur"
           position={"Ingeniero de software"}
@@ -15,7 +15,7 @@ const TestimonioPrincipal = () => {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ea omnis optio ipsam asperiores corporis, eveniet eligendi, velit commodi quo officiis eum ratione neque reiciendis. Voluptatibus ut rerum vero saepe!"
           }
         />
-        <Testimonios
+        <Contenido
           name={"Emma Bostion"}
           country={"Suecia"}
           company={"Google"}
@@ -29,4 +29,4 @@ const TestimonioPrincipal = () => {
   );
 };
 
-export { TestimonioPrincipal };
+export { Testimonio };

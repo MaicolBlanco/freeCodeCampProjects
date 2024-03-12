@@ -1,7 +1,7 @@
 import React from "react";
-import "./Testimonios.css";
+import "./Contenido.css";
 
-export const Testimonios = (props) => {
+export const Contenido = (props) => {
   return (
     <>
       <div className="card-description">

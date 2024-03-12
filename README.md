@@ -19,4 +19,8 @@ You choise the project name and the others steps
 - npm install
 - npm run dev
 
-## The First Component is about of the basic use React
+## The First Component:
+Is about of the basic use React
+
+## The Second Component:
+This component uses React.useState to take control of the state. It is still a basic component but it begins with the use of states.
