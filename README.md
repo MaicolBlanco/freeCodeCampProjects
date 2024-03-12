@@ -18,3 +18,5 @@ You choise the project name and the others steps
 ? package name:
 - npm install
 - npm run dev
+
+## The First Component is about of the basic use React
