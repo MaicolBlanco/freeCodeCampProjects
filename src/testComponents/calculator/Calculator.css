@@ -1,0 +1,31 @@
+.calculator{
+  height: 100vh;
+  padding-top: 10px;
+  background-color: olive;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: brown;
+  margin: 5px;
+}
+
+.container-calculator{
+  width: 400px;
+  height: 600px;
+  padding: 14px;
+  background-color: lightskyblue;
+  border: 5px solid darkblue;
+  border-radius: 20px;
+}
+
+.fila{
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
