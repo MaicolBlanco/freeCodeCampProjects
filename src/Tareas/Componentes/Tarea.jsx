@@ -1,5 +1,5 @@
 import React from "react";
-import "./Tarea.css";
+import "../Styles/Tarea.css";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 function Tarea({ texto, completada }) {
