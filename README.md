@@ -27,5 +27,18 @@ This component uses React.useState to take control of the state. It is still a b
 
 ## The Third Component:
 This component is a calculator, here again uses the states, with the onClick events
+- In this component we install the package to use the calculator operations 
+```bash npm install mathjs ```
 
 ## The Fourth Component:
+This component is a to-do List, here use React hooks like useState and more events like a onClick(), onChange and onSubmit
+- Use the icon pack [React-Icons] (https://react-icons.github.io/react-icons/)
+```bash npm install react-icons --save ```
+
+- We install the package to create id 
+```bash npm npm install uuid ```
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

@@ -9,14 +9,25 @@ function ListaTareas() {
   const agregarTarea = (tarea) => {
     console.log("Tarea agregada");
     console.log(tarea);
+    if (tarea.texto.trim()) {
+      tarea.texto = tarea.texto.trim();
+      /* La tarea que se incluye se lista al principio del arreglo  */
+      const tareasActualizadas = [tarea, ...tareas];
+      setTareas(tareasActualizadas);
+    }
   };
 
   return (
     <>
-      <TareaFormulario />
+      <TareaFormulario onSubmit={agregarTarea} />
       <div className="tareas-lista-contenedor">
         {tareas.map((tarea) => (
-          <Tarea texto={tarea.texto} completada={tarea.completada} />
+          <Tarea
+            key={tarea.id}
+            id={tarea.id}
+            texto={tarea.texto}
+            completada={tarea.completada}
+          />
         ))}
       </div>
     </>

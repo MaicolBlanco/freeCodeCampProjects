@@ -1,23 +1,26 @@
 import React from "react";
 import "../Styles/TareaFormulario.css";
+import { v4 as uuidv4 } from "uuid";
 
 function TareaFormulario(props) {
-  const [input, setInput] = React.useState('');
+  const [input, setInput] = React.useState("");
 
-  const manejarCambio = event => {
+  const manejarCambio = (event) => {
     // console.log("Escribiendo...");
     setInput(event.target.value);
     // console.log(event.target.value);
-  }
+  };
 
   const manejarEnvio = (event) => {
     event.preventDefault();
     // console.log('Enviando formulario..');
     const tareaNueva = {
-      id: "34545",
+      id: uuidv4(),
       texto: input,
       completada: false,
-    }
+    };
+    // console.log(tareaNueva);
+    props.onSubmit(tareaNueva);
   };
 
   return (
