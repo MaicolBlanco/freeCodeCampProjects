@@ -32,11 +32,16 @@ This component is a calculator, here again uses the states, with the onClick eve
 
 ## The Fourth Component:
 This component is a to-do List, here use React hooks like useState and more events like a onClick(), onChange and onSubmit
-- Use the icon pack [React-Icons] (https://react-icons.github.io/react-icons/)
-```bash npm install react-icons --save ```
+
+* Use the icon pack [React-Icons](https://react-icons.github.io/react-icons/)
+```
+npm install react-icons --save
+```
 
 - We install the package to create id 
-```bash npm npm install uuid ```
+```
+bash npm npm install uuid
+```
 
 
 ## License
