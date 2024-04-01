@@ -1,0 +1,6 @@
+.tareas-lista-contenedor {
+  display: flex;
+  flex-wrap: wrap;/* Si excede el contenedor da un enter y sigue en la otra */
+  justify-content: center;
+  margin-top: 15px;
+}
