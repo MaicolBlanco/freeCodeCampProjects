@@ -40,7 +40,7 @@ npm install react-icons --save
 
 - We install the package to create id 
 ```
-bash npm npm install uuid
+npm install uuid
 ```
 
 
